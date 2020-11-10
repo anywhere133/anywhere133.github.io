@@ -3,14 +3,15 @@ title: "모두의 딥러닝 season2 : Lec_1 Overview"
 layout: single
 comments: true
 categories:
-  - Algorithms
-  - Search
+  - 모두의 딥러닝
+  - Deep Learning
 tags:
   - 딥러닝
   - 모두의 딥러닝
   - Deeplearning
   - 파이토치
   - Pytorch
+use_math: true
 ---
 
 ### Overview
