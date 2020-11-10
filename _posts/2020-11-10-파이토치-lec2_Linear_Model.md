@@ -3,7 +3,6 @@ title: "모두의 딥러닝 season2 : Lec_2 Linear Model (선형 모형)"
 layout: single
 comments: true
 categories:
-  - 모두의 딥러닝
   - Deep Learning
 tags:
   - 딥러닝
