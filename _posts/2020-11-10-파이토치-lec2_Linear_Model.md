@@ -83,7 +83,7 @@ Training Loss(or Error, 학습 손실)이라고 한다.
 위의 경우에 $w$값이 x축, MSE를 y축으로 하는 그래프를 그리면,  
 $w=2$에서 0이고 대칭인 이차 함수 그래프가 그려진다.  
 
-![](./picture/lec1.jpeg)
+![](_posts/picture/lec1.jpeg)
 
 다음 lecture에서 배울 점진적 하강법(Gradient Descent Algorithm)을 사용하여,  
 loss를 최소화하는 것을 찾아나가게 나간다.
