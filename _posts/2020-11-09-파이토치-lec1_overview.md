@@ -3,7 +3,6 @@ title: "모두의 딥러닝 season2 : Lec_1 Overview"
 layout: single
 comments: true
 categories:
-  - 모두의 딥러닝
   - Deep Learning
 tags:
   - 딥러닝
