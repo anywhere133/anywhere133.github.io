@@ -50,7 +50,7 @@ use_math: true
 따라서 2개의 특징을 갖는 입력 데이터에 대해서 10개의 범주로 출력을 내려면,  
 가중치 행렬은 $feature \times Output_dim$ 크기의 행렬이어야 한다.
 
-<p>$$x \in R^{N \times 2} * w \in R^{2 \timeㄴ 10} = y \in R^{N \times 10}$$</p>
+<p>$$x \in R^{N \times 2} * w \in R^{2 \times 10} = y \in R^{N \times 10}$$</p>
 
 그 다음의 문제는 어떻게 확률로 출력을 낼 것인지에 대한 문제이다.  
 이 부분은 유명한 Softmax를 사용하여 해결할 수 있다.
