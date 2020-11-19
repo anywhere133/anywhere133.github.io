@@ -33,13 +33,13 @@ use_math: true
 
 우리는 행렬곱을 이용하여 우리가 얻고자 하는 출력 행렬을 얻어내야 할 것이다.  
 
-<p>$$\begin{bmatrix} a_1 & b_1 \\ a_2 & b_2 \\ \vdots & \vdots \\ a_n b_n \end{bmatrix}
+<p>$$\begin{bmatrix} a_1 & b_1 \\ a_2 & b_2 \\ \vdots & \vdots \\ a_n & b_n \end{bmatrix}
 \begin{bmatrix} w_1 \\ w_2 \end{bmatrix} = \begin{bmatrix} y_1 \\ y_2 \\ \vdots \\ y_n \end{bmatrix}$$</p>
 
 이전에는 위와 같이 각 입력 특징들에 대해 가중치 곱을 통해 $\hat y$들을 알아냈었다.  
 그렇다면 다음의 경우에는 어떻게 구해야 할까?
 
-<p>$$\begin{bmatrix} a_1 & b_1 \\ a_2 & b_2 \\ \vdots & \vdots \\ a_n b_n \end{bmatrix}
+<p>$$\begin{bmatrix} a_1 & b_1 \\ a_2 & b_2 \\ \vdots & \vdots \\ a_n & b_n \end{bmatrix}
 \begin{bmatrix} ? \end{bmatrix} = y \in R^{N \times 10}$$</p>
 
 <p>$$w \in R^{2 \times ?}$$</p>
@@ -50,7 +50,7 @@ use_math: true
 따라서 2개의 특징을 갖는 입력 데이터에 대해서 10개의 범주로 출력을 내려면,  
 가중치 행렬은 $feature \times Output_dim$ 크기의 행렬이어야 한다.
 
-<p>$$x \in R^{N \times 2} * w \in R^{2 \time 10} = y \in R^{N \times 10}$$</p>
+<p>$$x \in R^{N \times 2} * w \in R^{2 \timeㄴ 10} = y \in R^{N \times 10}$$</p>
 
 그 다음의 문제는 어떻게 확률로 출력을 낼 것인지에 대한 문제이다.  
 이 부분은 유명한 Softmax를 사용하여 해결할 수 있다.
