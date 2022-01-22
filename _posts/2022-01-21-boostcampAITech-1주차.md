@@ -183,7 +183,7 @@ RNN은 특정 k 시점의 상태 $\text{S}_k$를 다음과 같이 표현한다.
 
 $$\text{S}_k = f(\text{S}_{k-1} W_{rec} + \text{X}W_x)$$
 
-여기서 $\text{S}_{k}$는 $k$ 시점에서의 상태를 의미하고, $X_k$는 $k$ 시점에서의 input을,  
+여기서 $$\text{S}_k$$는 $k$ 시점에서의 상태를 의미하고, $X_k$는 $k$ 시점에서의 input을,  
 $W_{rec}$과 $W_x$는 feedforward 신경망의 학습 가능한 파라미터를 의미한다.  
 여기서 $W_{rec}$는 $k$ 시점의 바로 전 상태 $\text{S}_{k-1}$의 가중치이다.  
 즉 현재 상태와 이전 상태를 반영하는 feedforward 신경망인 것이다.
